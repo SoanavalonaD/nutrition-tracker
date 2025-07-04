@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { User, Mail, Lock, Eye, EyeOff } from 'lucide-react';
+import { Mail, Lock, Eye, EyeOff } from 'lucide-react';
 import { useAuthStore } from '../../store/authStore';
 
 interface LoginFormProps {
@@ -42,13 +42,13 @@ export const LoginForm: React.FC<LoginFormProps> = ({ onToggleMode }) => {
               alt="the logo"
             />
           </div>
-          <h2 className="text-2xl font-bold text-gray-900 mb-2">Welcome Back !!</h2>
+          <h2 className="text-2xl font-bold text-gray-900/75 mb-2">Welcome Back !!</h2>
           <p className="text-gray-600">Sign in to your nutrition tracker</p>
         </div>
 
         <form onSubmit={handleSubmit} className="space-y-6">
           <div>
-            <label htmlFor="email" className="block text-sm font-medium text-gray-700 mb-2">
+            <label htmlFor="email" className="block text-sm font-medium text-green-500 mb-2">
               Email Address
             </label>
             <div className="relative">
@@ -66,7 +66,7 @@ export const LoginForm: React.FC<LoginFormProps> = ({ onToggleMode }) => {
           </div>
 
           <div>
-            <label htmlFor="password" className="block text-sm font-medium text-gray-700 mb-2">
+            <label htmlFor="password" className="block text-sm font-medium text-green-500 mb-2">
               Password
             </label>
             <div className="relative">

@@ -101,14 +101,14 @@ export const RegisterForm: React.FC<RegisterFormProps> = ({ onToggleMode }) => {
               alt="the logo"
             />
           </div>
-          <h2 className="text-2xl font-bold text-gray-900 mb-2">Create Account</h2>
+          <h2 className="text-2xl font-bold text-gray-900/75 mb-2">Create Account</h2>
           <p className="text-gray-600">Join us to start tracking your nutrition</p>
         </div>
 
         <form onSubmit={handleSubmit} className="space-y-6">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             <div>
-              <label htmlFor="name" className="block text-sm font-medium text-gray-700 mb-2">
+              <label htmlFor="name" className="block text-sm font-medium text-green-500 mb-2">
                 Full Name
               </label>
               <div className="relative">
@@ -127,7 +127,7 @@ export const RegisterForm: React.FC<RegisterFormProps> = ({ onToggleMode }) => {
             </div>
 
             <div>
-              <label htmlFor="email" className="block text-sm font-medium text-gray-700 mb-2">
+              <label htmlFor="email" className="block text-sm font-medium text-green-500 mb-2">
                 Email Address
               </label>
               <div className="relative">
@@ -146,7 +146,7 @@ export const RegisterForm: React.FC<RegisterFormProps> = ({ onToggleMode }) => {
             </div>
 
             <div>
-              <label htmlFor="password" className="block text-sm font-medium text-gray-700 mb-2">
+              <label htmlFor="password" className="block text-sm font-medium text-green-500 mb-2">
                 Password
               </label>
               <div className="relative">
@@ -172,7 +172,7 @@ export const RegisterForm: React.FC<RegisterFormProps> = ({ onToggleMode }) => {
             </div>
 
             <div>
-              <label htmlFor="confirmPassword" className="block text-sm font-medium text-gray-700 mb-2">
+              <label htmlFor="confirmPassword" className="block text-sm font-medium text-green-500 mb-2">
                 Confirm Password
               </label>
               <div className="relative">
@@ -199,7 +199,7 @@ export const RegisterForm: React.FC<RegisterFormProps> = ({ onToggleMode }) => {
           </div>
 
           <div>
-            <h3 className="text-lg font-semibold text-gray-900 mb-4 flex items-center">
+            <h3 className="text-lg font-semibold text-green-500 mb-4 flex items-center">
               <Target className="w-5 h-5 mr-2" />
               Daily Nutrition Goals
             </h3>
@@ -268,7 +268,7 @@ export const RegisterForm: React.FC<RegisterFormProps> = ({ onToggleMode }) => {
           </div>
 
           <div>
-            <h3 className="text-lg font-semibold text-gray-900 mb-4 flex items-center">
+            <h3 className="text-lg font-semibold text-green-500 mb-4 flex items-center">
               <Activity className="w-5 h-5 mr-2" />
               Dietary Preferences
             </h3>
