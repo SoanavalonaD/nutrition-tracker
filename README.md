@@ -2,7 +2,10 @@
 
 Welcome to the NutriTRack app !!
 
-Launch it with these commands :
-> git clone https://github.com/DeborahSoanavalona/nutrition-tracker.git
-> pnpm install
-> pnpm run dev
+> Launch it with these commands :
+```bash
+git clone https://github.com/DeborahSoanavalona/nutrition-tracker.git
+pnpm install
+pnpm run dev
+```
+
