@@ -95,8 +95,11 @@ export const RegisterForm: React.FC<RegisterFormProps> = ({ onToggleMode }) => {
     <div className="w-full max-w-2xl mx-auto">
       <div className="bg-white rounded-2xl shadow-xl p-8">
         <div className="text-center mb-8">
-          <div className="inline-flex items-center justify-center w-12 h-12 bg-gradient-to-r from-green-400 to-blue-500 rounded-full mb-4">
-            <User className="w-6 h-6 text-white" />
+          <div className="inline-flex items-center justify-center w-40 h-40 rounded-full mb-4">
+            <img
+              src="/logo.png"
+              alt="the logo"
+            />
           </div>
           <h2 className="text-2xl font-bold text-gray-900 mb-2">Create Account</h2>
           <p className="text-gray-600">Join us to start tracking your nutrition</p>

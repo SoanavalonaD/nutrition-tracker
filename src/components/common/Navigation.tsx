@@ -24,10 +24,12 @@ export const Navigation: React.FC = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
           <Link to="/" className="flex items-center space-x-2">
-            <div className="w-8 h-8 bg-gradient-to-r from-green-400 to-blue-500 rounded-lg flex items-center justify-center">
-              <BarChart3 className="w-5 h-5 text-white" />
-            </div>
-            <span className="text-xl font-bold text-gray-900">NutriTrack</span>
+            <div className="inline-flex items-center justify-center w-40 h-40 rounded-full mb-4">
+            <img
+              src="/logo1.png"
+              alt="the logo"
+            />
+          </div>
           </Link>
 
           <div className="hidden md:flex items-center space-x-1">
