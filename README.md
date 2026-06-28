@@ -1,4 +1,5 @@
-![Screenshot from 2025-07-04 11-28-00](https://github.com/user-attachments/assets/a01fde04-f261-4b45-a680-4d0de0fe7c0c)
+![Uploading Capture d’écran 2026-06-29 à 01.14.23.png…]()
+
 
 Welcome to the NutriTrack app !!
 
